@@ -1,14 +1,15 @@
 # 차오름 차BTI
 
-차 동아리 차오름의 문답형 차 추천 테스트입니다.
+차 동아리 차오름의 축제 시음 후 문답형 차 추천 테스트입니다.
 
 ## 현재 상태
 
 - Vite + React + TypeScript MVP 구현
-- 질문 8개 진행
+- 축제 시음 직후용 질문 8개 진행
 - 그룹 점수 + 개별 차 보정 점수 기반 결과 계산
-- 결과 페이지 직접 링크 지원: `?result=greenTea`
+- 결과 페이지 직접 링크 지원: `?result=green_tea_ujeon`
 - Kakao JavaScript SDK 기반 결과 공유
+- 공유 링크는 기존 general 버전인 `https://postech-chaoreum.github.io/tea-test/`로 연결
 - 결과 페이지 기반 정적 공유 이미지 저장/공유
 
 ## 로컬 실행

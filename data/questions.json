@@ -1,331 +1,71 @@
 [
   {
-    "id": "q1",
-    "text": "예상치 못한 문제에 부딪혔을 때, 당신의 첫 반응은?",
+    "id": "festival-q1",
+    "text": "개완(벽라춘/동방미인)과 자사호(보이숙차) 중 더 마음이 갔던 도구는?",
     "answers": [
       {
-        "id": "q1-a",
-        "text": "날카롭고 빠른 해결",
+        "id": "festival-q1-a",
+        "text": "개완/유리: 찻잎과 수색이 보이는 투명하고 섬세한 도구",
         "scores": {
           "groups": {
             "clarity": 1,
-            "directness": 1,
-            "focus": 1
-          },
-          "teas": {
-            "green_tea_ujeon": 3,
-            "powdered_tea_matcha": 1,
-            "herbal_tea_peppermint": 1
-          }
-        }
-      },
-      {
-        "id": "q1-b",
-        "text": "조율과 유연한 대처",
-        "scores": {
-          "groups": {
-            "adaptability": 1,
-            "depth": 1,
-            "maturity": 1
-          },
-          "teas": {
-            "dark_tea_ripe_puer": 1,
-            "oolong_tea_dahongpao": 1
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": "q2",
-    "text": "당신이 선호하는 '성장'의 이미지는 무엇인가요?",
-    "answers": [
-      {
-        "id": "q2-a",
-        "text": "새싹 같은 생동감",
-        "scores": {
-          "groups": {
-            "vitality": 1,
-            "brightness": 1,
+            "delicacy": 1,
             "naturalness": 1
           },
           "teas": {
-            "green_tea_ujeon": 4
-          }
-        }
-      },
-      {
-        "id": "q2-b",
-        "text": "시간이 만든 깊이",
-        "scores": {
-          "groups": {
-            "depth": 1,
-            "maturity": 1
-          },
-          "teas": {
-            "dark_tea_ripe_puer": 2
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": "q3",
-    "text": "당신이 생각하는 사람의 가장 큰 매력은 무엇인가요?",
-    "answers": [
-      {
-        "id": "q3-a",
-        "text": "화사한 첫인상",
-        "scores": {
-          "groups": {
-            "brightness": 1,
-            "elegance": 1
-          },
-          "teas": {
-            "oolong_tea_oriental_beauty": 4,
-            "black_tea_darjeeling": 4
-          }
-        }
-      },
-      {
-        "id": "q3-b",
-        "text": "알수록 깊은 매력",
-        "scores": {
-          "groups": {
-            "depth": 1,
-            "maturity": 1,
-            "warmth": 1
-          },
-          "teas": {
-            "oolong_tea_dahongpao": 2,
-            "dark_tea_ripe_puer": 2
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": "q4",
-    "text": "당신이 가장 편안함을 느끼는 공간의 향기는 무엇인가요?",
-    "answers": [
-      {
-        "id": "q4-a",
-        "text": "꽃집의 싱그러움",
-        "scores": {
-          "groups": {
-            "naturalness": 1,
-            "clarity": 1,
-            "delicacy": 1
-          },
-          "teas": {
-            "green_tea_ujeon": 2,
-            "white_tea_baihao_yinzhen": 3
-          }
-        }
-      },
-      {
-        "id": "q4-b",
-        "text": "카페와 벽난로의 구수함",
-        "scores": {
-          "groups": {
-            "warmth": 1,
-            "depth": 1,
-            "craft": 1
-          },
-          "teas": {
-            "oolong_tea_dahongpao": 2,
-            "dark_tea_ripe_puer": 2
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": "q5",
-    "text": "당신의 인생 모토에 더 가까운 것은?",
-    "answers": [
-      {
-        "id": "q5-a",
-        "text": "본연의 모습",
-        "scores": {
-          "groups": {
-            "naturalness": 1,
-            "delicacy": 1,
-            "adaptability": 1
-          },
-          "teas": {
             "white_tea_baihao_yinzhen": 3,
-            "green_tea_ujeon": 1
-          }
-        }
-      },
-      {
-        "id": "q5-b",
-        "text": "단련으로 만든 가치",
-        "scores": {
-          "groups": {
-            "transformation": 1,
-            "craft": 1,
-            "depth": 1
-          },
-          "teas": {
-            "oolong_tea_oriental_beauty": 5,
-            "oolong_tea_dahongpao": 2,
-            "dark_tea_ripe_puer": 1,
-            "powdered_tea_matcha": 1
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": "q6",
-    "text": "친구와 대화할 때, 당신은 어떤 편인가요?",
-    "answers": [
-      {
-        "id": "q6-a",
-        "text": "부드러운 분위기 주도",
-        "scores": {
-          "groups": {
-            "sweetness": 1,
-            "elegance": 1,
-            "adaptability": 1
-          },
-          "teas": {
-            "oolong_tea_oriental_beauty": 5,
-            "black_tea_darjeeling": 4
-          }
-        }
-      },
-      {
-        "id": "q6-b",
-        "text": "핵심과 주관",
-        "scores": {
-          "groups": {
-            "directness": 1,
-            "focus": 1,
-            "depth": 1
-          },
-          "teas": {
-            "oolong_tea_dahongpao": 2,
-            "powdered_tea_matcha": 3,
-            "herbal_tea_peppermint": 1
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": "q8",
-    "text": "당신의 내공은 어디서 나온다고 생각하시나요?",
-    "answers": [
-      {
-        "id": "q8-a",
-        "text": "지식과 직관의 순발력",
-        "scores": {
-          "groups": {
-            "vitality": 1,
-            "clarity": 1,
-            "focus": 1
-          },
-          "teas": {
             "green_tea_ujeon": 2,
-            "white_tea_baihao_yinzhen": 3
+            "black_tea_darjeeling": 1
           }
         }
       },
       {
-        "id": "q8-b",
-        "text": "경험과 시행착오의 깊이",
+        "id": "festival-q1-b",
+        "text": "자사호: 온기를 머금는 묵직하고 고전적인 도구",
         "scores": {
           "groups": {
-            "maturity": 1,
-            "depth": 1,
+            "craft": 1,
+            "warmth": 1,
+            "depth": 1
+          },
+          "teas": {
+            "oolong_tea_dahongpao": 3,
+            "dark_tea_ripe_puer": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "festival-q2",
+    "text": "격식을 갖추어 차를 따르고 대접받는 과정에서 느낀 당신의 성향은?",
+    "answers": [
+      {
+        "id": "festival-q2-a",
+        "text": "정해진 순서와 예법 속에서 마음이 정돈됐다",
+        "scores": {
+          "groups": {
+            "craft": 1,
+            "focus": 1,
             "transformation": 1
           },
           "teas": {
-            "dark_tea_ripe_puer": 2
+            "oolong_tea_dahongpao": 3,
+            "powdered_tea_matcha": 2
           }
         }
-      }
-    ]
-  },
-  {
-    "id": "q9",
-    "text": "새로운 환경에 처했을 때, 당신은 보통 어떻게 반응하나요?",
-    "answers": [
+      },
       {
-        "id": "q9-a",
-        "text": "빠르게 수용하고 정체성 고정",
+        "id": "festival-q2-b",
+        "text": "예법보다 차의 맛 자체를 자유롭게 즐기는 쪽이 좋았다",
         "scores": {
           "groups": {
-            "clarity": 1,
-            "focus": 1,
             "directness": 1,
-            "refreshment": 1
+            "refreshment": 1,
+            "brightness": 1
           },
           "teas": {
-            "green_tea_ujeon": 1,
-            "powdered_tea_matcha": 2,
-            "herbal_tea_peppermint": 5
-          }
-        }
-      },
-      {
-        "id": "q9-b",
-        "text": "서서히 스며드는 변화",
-        "scores": {
-          "groups": {
-            "adaptability": 1,
-            "naturalness": 1,
-            "sweetness": 1,
-            "depth": 1
-          },
-          "teas": {
-            "white_tea_baihao_yinzhen": 1,
-            "oolong_tea_oriental_beauty": 3,
-            "oolong_tea_dahongpao": 2,
-            "black_tea_darjeeling": 4,
-            "dark_tea_ripe_puer": 2
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": "q10",
-    "text": "목표를 이루기 위해 본인을 강하게 밀어붙여야 하는 상황이 온다면?",
-    "answers": [
-      {
-        "id": "q10-a",
-        "text": "페이스 유지와 스트레스 최소화",
-        "scores": {
-          "groups": {
-            "naturalness": 1,
-            "delicacy": 1,
-            "adaptability": 1,
-            "refreshment": 1
-          },
-          "teas": {
-            "white_tea_baihao_yinzhen": 3,
-            "green_tea_ujeon": 1,
-            "herbal_tea_peppermint": 2
-          }
-        }
-      },
-      {
-        "id": "q10-b",
-        "text": "강한 단련으로 결과 만들기",
-        "scores": {
-          "groups": {
-            "transformation": 1,
-            "craft": 1,
-            "focus": 1,
-            "directness": 1
-          },
-          "teas": {
-            "powdered_tea_matcha": 4,
-            "oolong_tea_dahongpao": 2,
+            "herbal_tea_peppermint": 3,
             "black_tea_darjeeling": 2
           }
         }
@@ -333,77 +73,228 @@
     ]
   },
   {
-    "id": "q11",
-    "text": "당신이 무언가 도구를 사용할 때, 가장 중요하게 생각하는 가치는?",
+    "id": "festival-q3",
+    "text": "동방미인의 꽃향기와 보이숙차의 고소함/흙 나무 향기 중 더 끌리는 쪽은?",
     "answers": [
       {
-        "id": "q11-a",
-        "text": "직관적이고 가벼운 스타일",
+        "id": "festival-q3-a",
+        "text": "화사하고 세련된 느낌의 청향/화향",
         "scores": {
           "groups": {
-            "clarity": 1,
-            "delicacy": 1,
-            "refreshment": 1,
-            "naturalness": 1
+            "brightness": 1,
+            "elegance": 1,
+            "clarity": 1
           },
           "teas": {
-            "green_tea_ujeon": 1,
-            "white_tea_baihao_yinzhen": 2,
-            "herbal_tea_peppermint": 4
+            "oolong_tea_oriental_beauty": 3,
+            "black_tea_darjeeling": 2,
+            "green_tea_ujeon": 1
           }
         }
       },
       {
-        "id": "q11-b",
-        "text": "묵직하고 손때 묻는 스타일",
+        "id": "festival-q3-b",
+        "text": "구수하고 안정감을 주는 농향/숙향",
         "scores": {
           "groups": {
-            "craft": 1,
-            "warmth": 1,
             "depth": 1,
-            "focus": 1
+            "warmth": 1,
+            "maturity": 1
           },
           "teas": {
-            "oolong_tea_dahongpao": 2,
-            "dark_tea_ripe_puer": 1,
-            "powdered_tea_matcha": 2
+            "dark_tea_ripe_puer": 3,
+            "oolong_tea_dahongpao": 2
           }
         }
       }
     ]
   },
   {
-    "id": "q12",
-    "text": "당신이 가장 에너지를 얻는 풍경은 어떤 모습인가요?",
+    "id": "festival-q4",
+    "text": "차를 마시는 동안 당신은 어떤 상태였나요?",
     "answers": [
       {
-        "id": "q12-a",
-        "text": "가까운 산책로와 평온한 들판",
+        "id": "festival-q4-a",
+        "text": "차의 향을 맡으며 조용히 나 자신에게 집중했다",
         "scores": {
           "groups": {
-            "vitality": 1,
+            "clarity": 1,
+            "delicacy": 1,
+            "maturity": 1
+          },
+          "teas": {
+            "green_tea_ujeon": 3,
+            "white_tea_baihao_yinzhen": 2,
+            "dark_tea_ripe_puer": 1
+          }
+        }
+      },
+      {
+        "id": "festival-q4-b",
+        "text": "색을 관찰하고 맛을 비교하며 분석하고 소통했다",
+        "scores": {
+          "groups": {
+            "focus": 1,
+            "directness": 1,
+            "brightness": 1
+          },
+          "teas": {
+            "powdered_tea_matcha": 3,
+            "black_tea_darjeeling": 2,
+            "herbal_tea_peppermint": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "festival-q5",
+    "text": "시음이 끝난 지금, 당신의 몸이 원하는 마지막 한 잔은?",
+    "answers": [
+      {
+        "id": "festival-q5-a",
+        "text": "입안을 씻어내 줄 시원하고 상쾌한 한 잔",
+        "scores": {
+          "groups": {
+            "refreshment": 1,
+            "clarity": 1,
+            "naturalness": 1
+          },
+          "teas": {
+            "herbal_tea_peppermint": 3,
+            "white_tea_baihao_yinzhen": 2,
+            "green_tea_ujeon": 1
+          }
+        }
+      },
+      {
+        "id": "festival-q5-b",
+        "text": "이 온기를 유지하며 느긋하게 마무리할 든든한 한 잔",
+        "scores": {
+          "groups": {
+            "warmth": 1,
+            "depth": 1,
+            "focus": 1
+          },
+          "teas": {
+            "dark_tea_ripe_puer": 3,
+            "oolong_tea_dahongpao": 2,
+            "powdered_tea_matcha": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "festival-q6",
+    "text": "동방미인의 다채로운 향을 느꼈을 때 당신의 생각은?",
+    "answers": [
+      {
+        "id": "festival-q6-a",
+        "text": "꽃, 꿀, 과일 향이 교차하는 복합적인 즐거움이 매력적이다",
+        "scores": {
+          "groups": {
+            "sweetness": 1,
+            "brightness": 1,
+            "elegance": 1
+          },
+          "teas": {
+            "oolong_tea_oriental_beauty": 3,
+            "black_tea_darjeeling": 2,
+            "oolong_tea_dahongpao": 1
+          }
+        }
+      },
+      {
+        "id": "festival-q6-b",
+        "text": "벽라춘처럼 단일하고 깨끗한 향이 주는 명료함이 편안하다",
+        "scores": {
+          "groups": {
+            "clarity": 1,
+            "directness": 1,
+            "naturalness": 1
+          },
+          "teas": {
+            "green_tea_ujeon": 3,
+            "white_tea_baihao_yinzhen": 2,
+            "herbal_tea_peppermint": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "festival-q7",
+    "text": "찻잔에 담긴 수색을 보았을 때 더 마음이 끌리는 빛깔은?",
+    "answers": [
+      {
+        "id": "festival-q7-a",
+        "text": "벽라춘처럼 맑고 투명한 연두/연노랑",
+        "scores": {
+          "groups": {
+            "clarity": 1,
             "naturalness": 1,
             "delicacy": 1
           },
           "teas": {
-            "green_tea_ujeon": 2,
+            "green_tea_ujeon": 3,
             "white_tea_baihao_yinzhen": 2
           }
         }
       },
       {
-        "id": "q12-b",
-        "text": "바위산과 고산지대",
+        "id": "festival-q7-b",
+        "text": "동방미인이나 보이숙차처럼 깊고 따뜻한 주황/갈색",
         "scores": {
           "groups": {
-            "landscape_mystique": 1,
+            "warmth": 1,
             "depth": 1,
+            "brightness": 1,
             "maturity": 1
           },
           "teas": {
+            "black_tea_darjeeling": 3,
             "oolong_tea_dahongpao": 2,
-            "dark_tea_ripe_puer": 1,
-            "black_tea_darjeeling": 5
+            "dark_tea_ripe_puer": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "festival-q8",
+    "text": "벌레가 갉아먹은 상처를 '향기'로 승화시킨 동방미인의 이야기를 떠올려 보세요.",
+    "answers": [
+      {
+        "id": "festival-q8-a",
+        "text": "상처조차 예술로 바꾸는 극적인 변화와 화려한 성취",
+        "scores": {
+          "groups": {
+            "transformation": 1,
+            "brightness": 1,
+            "craft": 1
+          },
+          "teas": {
+            "oolong_tea_oriental_beauty": 3,
+            "oolong_tea_dahongpao": 2,
+            "black_tea_darjeeling": 1,
+            "dark_tea_ripe_puer": 1
+          }
+        }
+      },
+      {
+        "id": "festival-q8-b",
+        "text": "벽라춘처럼 곧고 바르게 자란 본연의 무결함과 순수성",
+        "scores": {
+          "groups": {
+            "naturalness": 1,
+            "delicacy": 1,
+            "clarity": 1
+          },
+          "teas": {
+            "green_tea_ujeon": 3,
+            "white_tea_baihao_yinzhen": 2,
+            "herbal_tea_peppermint": 1
           }
         }
       }

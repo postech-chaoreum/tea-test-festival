@@ -9,6 +9,8 @@ import "./styles.css";
 
 type Step = "start" | "question" | "result";
 
+const generalSiteUrl = "https://postech-chaoreum.github.io/tea-test/";
+
 type ResultCharacterAsset = {
   src: string;
   position: string;
@@ -58,6 +60,12 @@ function getResultUrl(resultId: string) {
   const url = new URL(window.location.href);
   url.search = "";
   url.hash = "";
+  url.searchParams.set("result", resultId);
+  return url.toString();
+}
+
+function getGeneralResultUrl(resultId: string) {
+  const url = new URL(generalSiteUrl);
   url.searchParams.set("result", resultId);
   return url.toString();
 }
@@ -163,7 +171,7 @@ function App() {
 
   const copyResultLink = async () => {
     if (!result) return;
-    await navigator.clipboard.writeText(getResultUrl(result.id));
+    await navigator.clipboard.writeText(getGeneralResultUrl(result.id));
     showToast("결과 링크를 복사했어요.");
   };
 
@@ -172,7 +180,7 @@ function App() {
     return createStoryBlob({
       config: appConfig,
       result,
-      resultUrl: getResultUrl(result.id),
+      resultUrl: getGeneralResultUrl(result.id),
     });
   };
 
@@ -212,7 +220,7 @@ function App() {
       await shareToKakao({
         config: appConfig,
         result,
-        resultUrl: getResultUrl(result.id),
+        resultUrl: getGeneralResultUrl(result.id),
       });
     } catch (error) {
       showToast(error instanceof Error ? error.message : "카카오톡 공유에 실패했어요.");
@@ -300,7 +308,7 @@ function StartScreen({ onStart }: { onStart: () => void }) {
         <p className="eyebrow">ChaoReum Tea Club</p>
         <h1>{appConfig.appTitle}</h1>
         <p className="subtitle">{appConfig.appSubtitle}</p>
-        <p className="intro">{questions.length}개의 선택으로 지금 취향에 맞는 차를 찾아보세요.</p>
+        <p className="intro">{questions.length}개의 선택으로 시음 후 가장 오래 남은 취향을 찾아보세요.</p>
         <button className="primary-button" type="button" onClick={onStart}>
           시작하기
         </button>
