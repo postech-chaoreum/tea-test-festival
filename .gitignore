@@ -1,0 +1,10 @@
+.codex/
+*.pdf
+node_modules/
+dist/
+.npm-cache/
+artifacts/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
